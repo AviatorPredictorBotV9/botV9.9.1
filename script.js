@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.validateActivationCode = function () {
         let activationCode = document.getElementById("activationCodeInput").value.trim();
 
-        if (activationCode === "GZF963") {
+        if (activationCode === "GNT852") {
             showSection("getSignalSection");
         } else {
             alert("Invalid Activation Code. Please try again.");
