@@ -32,7 +32,7 @@ function submitBettingSiteID() {
 // Activation Code Validation
 function validateActivationCode() {
     const inputCode = document.getElementById("activationCodeInput").value.trim();
-    const correctCode = "GRN250";
+    const correctCode = "GAL753";
 
     if (inputCode === correctCode) {
         document.getElementById("getSignalButton").style.display = "block";
