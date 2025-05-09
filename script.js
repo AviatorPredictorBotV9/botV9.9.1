@@ -114,7 +114,7 @@ function getLiveSignal() {
             errorScreen.className = "error-screen";
             errorScreen.innerHTML = `
                 <h2>⚠️ SERVER ERROR 996</h2>
-                <p>Server Package too weak for Indian Decipher;</p>
+                <p>Customized Server Package too weak to Decipher;</p>
                 <p>Contact support immediately for assistance.</p>
                 <p>Your bot is fully linked to your betting site.</p>
             `;
@@ -124,7 +124,7 @@ function getLiveSignal() {
             setTimeout(() => {
                 let hugeWarning = document.createElement("div");
                 hugeWarning.className = "huge-warning";
-                hugeWarning.innerText = "⚠️ ENTER NEW CODE IMMEDIATELY! ⚠️";
+                hugeWarning.innerText = "⚠️ UPGRADE TO NON-CUSTOMIZED PACKAGE IMMEDIATELY! ⚠️";
                 document.body.appendChild(hugeWarning);
 
                 // Keep showing the error message repeatedly
