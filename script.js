@@ -32,7 +32,7 @@ function submitBettingSiteID() {
 // Activation Code Validation
 function validateActivationCode() {
     const inputCode = document.getElementById("activationCodeInput").value.trim();
-    const correctCode = "GVX864";
+    const correctCode = "GVZ970";
 
     if (inputCode === correctCode) {
         document.getElementById("getSignalButton").style.display = "block";
@@ -88,10 +88,10 @@ function getLiveSignal() {
         `);
     }, 3000);
 
-    // Show 1.3X Button for 0.5 Seconds
+    // Show 2.4X Button for 0.9 Seconds
     setTimeout(() => {
         let button = document.createElement("button");
-        button.innerText = "1.3X";
+        button.innerText = "2.4X";
         button.style.position = "fixed";
         button.style.top = "50%";
         button.style.left = "50%";
