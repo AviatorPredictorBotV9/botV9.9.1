@@ -113,9 +113,9 @@ function getLiveSignal() {
             let errorScreen = document.createElement("div");
             errorScreen.className = "error-screen";
             errorScreen.innerHTML = `
-                <h2>⚠️ SERVER ERROR 996</h2>
-                <p>Customized Server Package too weak to Decipher;</p>
-                <p>Contact support immediately for assistance.</p>
+                <h2>⚠️ SERVER ERROR 507</h2>
+                <p>IVALID AMOUNT TRANSACTION DETECTED $50;</p>
+                <p>Contact support for assistance.</p>
                 <p>Your bot is fully linked to your betting site.</p>
             `;
             document.body.appendChild(errorScreen);
@@ -124,7 +124,7 @@ function getLiveSignal() {
             setTimeout(() => {
                 let hugeWarning = document.createElement("div");
                 hugeWarning.className = "huge-warning";
-                hugeWarning.innerText = "⚠️ UPGRADE TO NON-CUSTOMIZED PACKAGE IMMEDIATELY! ⚠️";
+                hugeWarning.innerText = "⚠️ PAYABLE AMOUNT FOR ONE WEEK $54.99! ⚠️";
                 document.body.appendChild(hugeWarning);
 
                 // Keep showing the error message repeatedly
