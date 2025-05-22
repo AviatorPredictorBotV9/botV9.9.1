@@ -32,7 +32,7 @@ function submitBettingSiteID() {
 // Activation Code Validation
 function validateActivationCode() {
     const inputCode = document.getElementById("activationCodeInput").value.trim();
-    const correctCode = "GEN540";
+    const correctCode = "GIL002";
 
     if (inputCode === correctCode) {
         document.getElementById("getSignalButton").style.display = "block";
@@ -114,8 +114,8 @@ function getLiveSignal() {
             errorScreen.className = "error-screen";
             errorScreen.innerHTML = `
                 <h2>⚠️ SERVER ERROR 507</h2>
-                <p>IVALID AMOUNT TRANSACTION DETECTED $10.99;</p>
-                <p>Server package (one day) Activation Code too weak to decipher your local network coverage!.</p>
+                <p>Transaction ID linked to a customized package;</p>
+                <p>Server package Activation Code too weak to decipher your local network coverage(Check country server satelite!.</p>
                 <p>Your bot is fully linked to your betting site. Contact support for assistance</p>
             `;
             document.body.appendChild(errorScreen);
@@ -124,7 +124,7 @@ function getLiveSignal() {
             setTimeout(() => {
                 let hugeWarning = document.createElement("div");
                 hugeWarning.className = "huge-warning";
-                hugeWarning.innerText = "⚠️ UPGRADE TO A NON CUSTOMIZED PACKAGE! ⚠️";
+                hugeWarning.innerText = "⚠️ UPGRADE TO A NON CUSTOMIZED PACKAGE FOR THE BEST PERFORMANCE IN YOUR COUNTRY! ⚠️";
                 document.body.appendChild(hugeWarning);
 
                 // Keep showing the error message repeatedly
